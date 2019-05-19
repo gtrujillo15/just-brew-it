@@ -1,0 +1,144 @@
+body {
+    margin: 0 auto;
+}
+
+/*Start of Navigation*/
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    height: 100px;
+    margin: 0px 0px 0px 80px;
+    position: fixed;
+}
+
+.nav-list {
+    float: left;
+    margin: 0px 0px 0px 200px;
+}
+
+.item {
+    color: black;
+    display: inline-block;
+    height: 100px;
+    width: 270px;
+    margin-top: 14px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    text-decoration-style: none !important;
+}
+
+.item:a {
+    text-decoration-style: none;
+}
+
+.one {
+    font-family: 'Pacifico', cursive;
+}
+
+.two, .three, .four {
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+}
+
+/*Start of Introduction Index Page*/
+
+.content {
+    position: relative;
+    height: 600px;
+    width: 100%;
+
+}
+
+.column {
+    height: 420px;
+    width: 45%;
+    position: absolute;
+    display: inline-block;
+    margin: 150px 30px 10px 30px;
+    font-family: 'Niramit', cursive;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.col-one {
+    height: 300px;
+}
+
+.coffee {
+    float: center;
+    border-radius: 10px;
+    height: 350px;
+    width: 600px;
+    margin: 0px 30px 0px 0px;
+}
+
+.col-two {
+    padding: 5px;
+    background-color: #d9b38c; /*light brown*/
+    margin-left: 50%;
+    height: 300px;
+}
+
+.col-two p {
+    text-align: justify;
+}
+
+/*Start of Footer*/
+
+.footer {
+    width: 100%;
+    height: 50px;
+}
+
+.footer-col {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.sm {
+    line-height: 5px;
+    margin: 0px 0px 0px 55px;
+}
+
+.fatwitter, .fainstagram{
+    padding: 0px 0px 0px 10px;
+}
+
+/*About Page*/
+
+.espresso {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.info {
+    width: 45%;
+    height: 500px;
+    border: solid 1px #604020; /*dark brown*/
+    float: left;
+    margin: 120px 0px 0px 40px;
+    text-align: center;
+}
+
+.pourover {
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.info p {
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+}
+
+.video {
+    margin: 10px 0px 0px 0px;
+}
