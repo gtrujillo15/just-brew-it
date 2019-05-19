@@ -31,11 +31,6 @@ body {
     margin-top: 14px;
     text-align: center;
     font-family: 'Amatic SC', cursive;
-    text-decoration-style: none !important;
-}
-
-.item:a {
-    text-decoration-style: none;
 }
 
 .one {
@@ -53,7 +48,6 @@ body {
     position: relative;
     height: 600px;
     width: 100%;
-
 }
 
 .column {
